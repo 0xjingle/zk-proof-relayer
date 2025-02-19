@@ -84,7 +84,7 @@ pub async fn send_to_modal(raw_email: String, hash: u64) -> Result<()> {
     // Path 2: Send to modal
     // Construct the URL with query parameters
     let webhook_url = format!(
-        "https://ziztuww--aayush-pull-and-prove-email.modal.run?aws_url={}&nonce={}",
+        "https://ziz-test-prove-email.modal.run?aws_url={}&nonce={}",
         urlencoding::encode(&raw_email),
         hash
     );
